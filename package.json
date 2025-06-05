@@ -1,6 +1,6 @@
 {
-  "name": "xmlbuilder",
-  "version": "15.1.1",
+  "name": "xmlbuilder-disable-null",
+  "version": "15.1.1.0",
   "keywords": [
     "xml",
     "xmlbuilder"
