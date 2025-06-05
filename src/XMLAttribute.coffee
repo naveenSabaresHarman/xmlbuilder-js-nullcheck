@@ -15,8 +15,9 @@ module.exports = class XMLAttribute
       @options = @parent.options
       @stringify = @parent.stringify
 
-    if not name?
-      throw new Error "Missing attribute name. " + @debugInfo(name)
+  # Commented to disable name null check
+    # if not name?
+    #   throw new Error "Missing attribute name. " + @debugInfo(name)
 
     @name = @stringify.name name
     @value = @stringify.attValue value
